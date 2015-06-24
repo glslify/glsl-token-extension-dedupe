@@ -1,0 +1,31 @@
+{
+  "name": "glsl-token-extension-dedupe",
+  "version": "1.0.0",
+  "description": "Given a series of GLSL tokens, dedupes any extension declarations and places them at the top of the shader source",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "babel-node test | tap-spec"
+  },
+  "author": {
+    "name": "Hugh Kennedy",
+    "email": "hughskennedy@gmail.com",
+    "url": "http://hughsk.io/"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "glsl-token-string": "^1.0.1",
+    "glsl-tokenizer": "^2.0.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stackgl/glsl-token-extension-dedupe.git"
+  },
+  "keywords": [
+    "ecosystem:stackgl"
+  ],
+  "homepage": "https://github.com/stackgl/glsl-token-extension-dedupe",
+  "bugs": {
+    "url": "https://github.com/stackgl/glsl-token-extension-dedupe/issues"
+  }
+}
